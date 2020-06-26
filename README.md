@@ -1,6 +1,4 @@
-#[LitElement、使い方のキホン](https://app.codegrid.net/series/2020-litelement)
-
-//シリーズ名とそのシリーズリンクを書きます。
+# [LitElement、使い方のキホン](https://app.codegrid.net/series/2020-litelement)
 
 [CodeGrid](http://www.codegrid.net/)の「[LitElement、使い方のキホン](https://app.codegrid.net/series/2020-litelement)」の記事内で使用しているサンプルです。
 
@@ -19,7 +17,7 @@
 
 ```sh
 $ git clone git@github.com:codegrid/2020-litelement.git
-$ cd 1
+$ cd demo/1
 $ npm install
 ```
 
