@@ -55,3 +55,43 @@ $ npm start
     |- index.js  // 記事中のサンプルコード
 ```
 
+### `3/`
+
+記事中に登場する、ディレクティブのサンプルコードをデモとして実行します。
+
+次のコマンドを実行すると、サーバーが起動します。ビルドおよびサーバーの起動には、[parcel](https://ja.parceljs.org/)を使っています。
+
+```sh
+$ npm start
+```
+
+ブラウザで、下記のURLにアクセスすると、それぞれのディレクティブのデモを確認することができます。
+
+| ディレクティブ | URL |
+|:---|:---|
+| repeat | http://localhost:3000/repeat/index.html |
+| guard | http://localhost:3000/guard/index.html |
+| classMap | http://localhost:3000/class-map/index.html |
+| unsafeHTML | http://localhost:3000/unsafe-html/index.html |
+
+ディレクトリの内容は、次のとおりです。
+
+```
+|- src
+    |- class-map
+    |   |- index.html  // classMapディレクティブのエントリポイントとなるHTML
+    |   |- index.js  // classMapディレクティブの記事中のサンプルコード
+    |- guard
+    |   |- index.html  // guardディレクティブのエントリポイントとなるHTML
+    |   |- index.js  // guardディレクティブの記事中のサンプルコード
+    |- lib // デモ間で共通する関数置き場
+    |   |- get-renderer.js
+    |   |- insert-head-to-tail.js
+    |- repeat
+    |   |- index.html  // repeatディレクティブのエントリポイントとなるHTML
+    |   |- index.js  // repeatディレクティブの記事中のサンプルコード
+    |- unsafe-html
+        |- index.html  // unsafeHTMLディレクティブのエントリポイントとなるHTML
+        |- index.js  // unsafeHTMLディレクティブの記事中のサンプルコード
+```
+
