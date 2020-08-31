@@ -95,7 +95,7 @@ $ npm start
         |- index.js  // unsafeHTMLディレクティブの記事中のサンプルコード
 ```
 
-### `4/`
+### `5/`
 
 記事中に登場する、LitElementのサンプルコードをデモとして実行します。
 
@@ -109,7 +109,9 @@ $ npm start
 
 ```
 |- src
-    |- index.html  // エントリポイントとなるHTML
-    |- index.ts  // 記事中のサンプルコード
+    |- index.html      // エントリポイントとなるHTML
+    |- index.ts        // エントリポイントとなるTS
+    |- todo.ts         // `<my-todo>`を提供するコンポーネント
+    |- todo-input.ts   // `<my-todo-input>`を提供するコンポーネント
+    |- todo-list.ts    // `<my-todo-list>`を提供するコンポーネント
 ```
-
