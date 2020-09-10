@@ -95,6 +95,23 @@ $ npm start
         |- index.js  // unsafeHTMLディレクティブの記事中のサンプルコード
 ```
 
+### `4/`
+
+記事中に登場する、LitElementのサンプルコードをデモとして実行します。
+
+次のコマンドを実行すると、サーバーが起動します。ブラウザで`http://localhost:3000/`にアクセスすると、デモを確認することができます。 ビルドおよびサーバーの起動には、[parcel](https://ja.parceljs.org/)を使っています。
+
+```sh
+$ npm start
+```
+ディレクトリの内容は、次のとおりです。
+
+```
+|- src
+    |- index.html  // エントリポイントとなるHTML
+    |- index.ts  // 記事中のサンプルコード
+```
+
 ### `5/`
 
 記事中に登場する、LitElementのサンプルコードをデモとして実行します。
@@ -115,3 +132,4 @@ $ npm start
     |- todo-input.ts   // `<my-todo-input>`を提供するコンポーネント
     |- todo-list.ts    // `<my-todo-list>`を提供するコンポーネント
 ```
+
